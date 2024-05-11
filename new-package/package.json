@@ -1,9 +1,12 @@
 {
   "name": "@okakajp25/new-package",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "first package",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Okakajp25",
