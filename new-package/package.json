@@ -1,6 +1,6 @@
 {
   "name": "@okakajp25/new-package",
-  "version": "0.1.1",
+  "version": "0.1.11",
   "description": "first package",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,6 +12,7 @@
   "author": "Okakajp25",
   "license": "MIT",
   "dependencies": {
+    "react": "^18.3.1",
     "typescript": "^5.4.5"
   }
 }
